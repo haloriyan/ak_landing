@@ -1,0 +1,28 @@
+footer {
+    padding: 60px 100px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer h2 {
+    font-size: 36px;
+}
+footer li {
+    list-style: none;
+    padding: 8px 0px;
+}
+footer .social-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+footer .social-item:hover {
+    background-color: #fff;
+    color: var(--orange);
+}

@@ -1,0 +1,10 @@
+.location-detail {
+    position: absolute;
+    top: 0px;left: 0px;right: 0px;bottom: 5px;
+    background-color: #00000030;
+    color: #fff;
+}
+.location-item:hover .location-detail { background-color: #00000080; }
+.location-item:hover .location-image { filter: blur(2px); }
+.location-control { display: none; }
+.location-item:hover .location-control { display: block; }

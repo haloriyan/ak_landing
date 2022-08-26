@@ -1,0 +1,65 @@
+header {
+    position: fixed;
+    top: 40px;left: 0px;right: 0px;
+    height: 65px;
+    z-index: 2;
+}
+header.active {
+    top: 0px;
+}
+header h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+header nav li {
+    list-style: none;
+    padding: 0px 20px;
+}
+header a {
+    color: #fff;
+}
+
+.background,.container {
+    position: absolute;
+    top: 0px;left: 0px;right: 0px;bottom: 0px;
+}
+.container {
+    background-color: #00000080;
+    color: #fff;
+}
+.container .tagline {
+    font-size: 44px;
+}
+.infographic {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+}
+.infographic .count {
+    font-size: 36px;
+    font-weight: 800;
+}
+.infographic .text {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.bottom {
+    position: absolute;
+    top: 100%;left: 0px;right: 0px;
+}
+
+section#info p {
+    font-size: 20px;
+    line-height: 32px;
+}
+section#speaker h2 {
+    font-size: 42px;
+}
+section#sponsor h2 {
+    font-size: 32px;
+}

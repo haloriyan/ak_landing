@@ -1,0 +1,23 @@
+.filter {
+    position: fixed;
+    top: 65px;left: 0px;bottom: 0px;
+    width: 20%;
+    z-index: 1;
+    border-right: 1px solid #ddd;
+}
+
+#categories {
+    position: fixed;
+    top: 66px;left: 20%;right: 0px;
+    z-index: 2;
+    margin-left: -1px;
+}
+
+.content {
+    position: absolute;
+    top: 125px;left: 20%;right: 0px;
+}
+.service-item a,
+#categories a {
+    color: #444;
+}

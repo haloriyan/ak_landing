@@ -1,0 +1,8 @@
+.content {
+    position: absolute;
+    top: calc(65px + 2%);left: 8%;right: 1%;
+    transition: 0.4s;
+}
+.content.active {
+    left: 22%;
+}

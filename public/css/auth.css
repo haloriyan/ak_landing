@@ -1,0 +1,16 @@
+.illustration {
+    position: absolute;
+    top: 0px;left: 0px;bottom: 0px;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 0px;left: 40%;right: 0px;bottom: 0px;
+}
+.content a {
+    text-decoration: underline;
+    color: var(--orange);
+}

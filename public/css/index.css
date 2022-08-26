@@ -1,0 +1,48 @@
+.fold {
+    position: absolute;
+    top: 30px;left: 0px;right: 0px;bottom: 0px;
+}
+.fold h2 {
+    font-size: 46px;
+    line-height: 50px;
+}
+.fold select {
+    border: none;
+    padding: 0px;
+}
+.fold label.active {
+    left: -5px;top: -10px;
+    color: #999;
+}
+
+.bottom {
+    position: absolute;
+    top: 100%;left: 0px;right: 0px;
+}
+#categories .item {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
+#categories h4 {
+    font-size: 16px;
+    margin-top: 12px;
+}
+#categories p {
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+#latest .tab-title {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+#latest .tab-title.active {
+    color: var(--orange);
+    font-weight: bold;
+    border-bottom: 3px solid var(--orange);
+}
+#latest a {
+    color: #444;
+}

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    color: #444;
+}
+a {
+    text-decoration: none;
+}
+.text.bold { font-weight: 700; }
+.text.normal { font-weight: 500; }
+/* .text.transparent { color: #888;opacity: 1; } */
+.text.underline { text-decoration: underline; }
+
+.text.big { font-size: 140%; }
+.text.small { font-size: 80%; }
+.text.capitalize { text-transform: capitalize; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.weight-600 { font-weight: 600; }
+.weight-700 { font-weight: 700; }
+.weight-800 { font-weight: 800; }
